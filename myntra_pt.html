@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> E-commerce1</title>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+		<link rel="stylesheet" href="myntr_style.css">
+		<link href="https://fonts.cdnfonts.com/css/my-puma" rel="stylesheet">
+		<link href='https://css.gg/adidas.css' rel='stylesheet'>
+    
+    <style>
+    
+*{
+    background-color:white;
+    
+}
+
+.nav{
+    background-color: white;
+    z-index: 9;
+    padding-left: 10px;
+
+}
+
+.nav_top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-bottom: 50px;
+    
+    
+}
+
+.logo{
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: -10px;
+    
+
+}
+
+.nav_side{
+    float: right;
+    margin-top: 40px;
+    margin-right: 21px;
+    
+}
+
+.logo_m{
+    height: 80px;
+    width: 190px;
+    padding: 0px;
+    border-radius: 200px;
+}
+
+.men, .women, .kids, .home-living, .studio, .beauty{
+    padding: 20px;	
+    color: black;
+    font-weight:600;
+    font-size:medium;
+    
+
+}
+
+#profile, #wishlist, #bag{
+    padding-left: 20px;
+
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+    font-family: Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+#op,#ap,#ss{
+    height: 100%;
+    width: 100%;
+    padding-top:100px;
+    position: relative;
+
+}
+
+.msb{
+    font-family:cursive;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.puma_virat{
+    padding-left: 10px;
+    height: 200px;
+    width: 200px;
+    padding-bottom: 10px;
+    border-radius: 100px;
+}
+
+.puma_font{
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 70px;
+    font-family: 'My Puma', sans-serif;
+                            
+}
+
+.adidas_img{
+    padding-left: 10px;
+    height: 200px;
+    width: 200px;
+    padding-bottom: 10px;
+    border-radius: 100px;
+    margin-left: 10px;
+}
+
+.comp_fonts{
+    display: table;
+}
+
+.comp_fonts div{
+    display: table-cell;
+}
+
+
+.adidas_font{
+    font-weight:900;
+    margin-left: 140px;
+    font-size: xx-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.handm_font{
+    font-weight:900;
+    margin-left: 120px;
+    font-size: xx-large;
+    font-family: cursive;
+}
+
+.handm_img{
+    padding-left: 10px;
+    height: 200px;
+    width: 200px;
+    padding-bottom: 10px;
+    border-radius: 100px;
+    margin-left: 10px;
+
+}
+
+    
+    </style>
+                
+
+
+	</head>
+
+
+	<body>
+		<nav class="nav nav_top">
+			<div class="logo">
+				<a href="https://www.myntra.com/" target="_blank"><img class="logo_m" src="myntra_gif.gif"  ></a>
+			
+
+			<div class="nav_side">
+				<a class="men" href="https://www.myntra.com/shop/men " style ="text-decoration: none;" target="_blank" >MEN</a>
+				<a class="women" href="https://www.myntra.com/shop/women" style ="text-decoration: none;" target="_blank">WOMEN</a>
+				<a class="kids" href="https://www.myntra.com/shop/kids" style ="text-decoration: none;" target="_blank">KIDS</a>
+				<a class="home-living" href="https://www.myntra.com/shop/home-living" style ="text-decoration: none;" target="_blank">HOME & LIVING</a>
+				<a class="beauty" href="https://www.myntra.com/shop/beauty" style ="text-decoration: none;" target="_blank">BEAUTY</a>
+				<a class="studio" href="https://www.myntra.com/shop/studio" style ="text-decoration: none;" target="_blank">STUDIO</a>
+				<i id="profile" class="fa fa-user">Profile</i>
+				<i id="wishlist" class="fa fa-heart">Wishlist</i>
+				<i id="bag" class="fa fa-shopping-bag">Bag</i>
+			
+				
+		
+			</div>
+
+			
+
+			
+		</nav>
+		<br>
+
+		<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-controls">
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			  </div>
+
+			  <div class="carousel-inner">
+				<div class="carousel-item active">
+				  <a href="http://www.myntra.com/men" target="_blank"><img id="op" src="myntra_home1.jpg" class="d-block " alt="..."></a>
+				  
+				</div>
+  
+				<div class="carousel-item">
+				  <a href="https://www.myntra.com/shop/extra-tshirt" target="_blank"> <img id="ap" src="myntra_home2.webp" class="d-block " alt="..."></a>
+				  
+				</div>
+  
+				<div class="carousel-item">
+				  <a href="https://www.myntra.com/western-wear-women?rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0" target="_blank"><img id="ss" src="myntra_home3.jpg" class="d-block" alt="..."></a>
+				  
+			  </div>
+  
+			  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			  </button>
+			  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			  </button>
+			</div>
+		</div>
+
+		<h2 class="msb"> Most Loved Brands <i class="fa fa-heart" aria-hidden="true"></i></h2>
+
+		<div>
+			<a class="puma_virat" href="https://www.myntra.com/puma?rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0" target="_blank"><img class = "puma_virat" src="puma_virat.jpg"></a>
+			<a class="adidas" href="https://www.myntra.com/adidas" target="_blank"><img class="adidas_img" src="adidas_img.jpg" alt="adidas brand"></a>
+			<a class="handm" href="https://www.myntra.com/h-and-m" target="_blank"><img class="handm_img" src="h&m_img.jpg" alt="h-and-m"> </a>
+
+		</div>
+		
+
+		<div class="comp_fonts">
+			<div>
+				<h3 class="puma_font">PUMA</h3>
+			</div>
+
+			<div>
+				
+				<h3 class="adidas_font">adidas</h3>
+				
+			</div>
+
+			<div>
+				<h3 class="handm_font">H&M </h3>	
+			</div>
+			
+			
+			
+
+		</div>
+
+		
+
+
+
+
+		
+	</body>
+
+
+
+</html>
